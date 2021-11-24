@@ -30,6 +30,7 @@ cp -r $UNSPLIT_SOURCE/dunetpc/dune/Geometry .
 cp -r $UNSPLIT_SOURCE/dunetpc/dune/DuneCommon .
 cp -r $UNSPLIT_SOURCE/dunetpc/dune/DuneObj .
 cp -r $UNSPLIT_SOURCE/dunetpc/dune/DuneObjDumpers .
+cp -r $UNSPLIT_SOURCE/dunetpc/dune/HDF5Utils .
 cp -r $UNSPLIT_SOURCE/dunetpc/Modules ..
 cd ..
 

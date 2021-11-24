@@ -25,7 +25,7 @@ cp -r $UNSPLIT_SOURCE/dunetpc/dune/Protodune .
 cp -r $UNSPLIT_SOURCE/dunetpc/dune/Iceberg .
 cp -r $UNSPLIT_SOURCE/dunetpc/dune/3x1x1dp .
 cp -r $UNSPLIT_SOURCE/dunetpc/dune/BeamData .
-cp -r $UNSPLIT_SOURCE/dunetpc/dune/VDColdbox .
+cp -r $UNSPLIT_SOURCE/dunetpc/dune/Coldbox .
 
 ${SCRIPTDIR}/fixinclude.sh
 

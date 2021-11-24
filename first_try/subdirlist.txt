@@ -72,3 +72,4 @@ TrackPID              dunereco
 TrackingAna           duneana
 Utilities             dunecore
 VLNets                dunereco
+Coldbox             duneprototypes

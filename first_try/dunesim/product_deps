@@ -3,7 +3,7 @@
 # The *parent* line must the first non-commented line and defines this product and version
 # The version must be of the form vxx_yy_zz (e.g. v01_02_03).
 
-parent dunesim v09_36_00
+parent dunesim v09_37_01
 
 defaultqual e20
 
@@ -32,7 +32,7 @@ table_fragment_end
 
 product          version
 cetbuildtools	 v8_18_05	-	only_for_build
-dunecore         v09_36_00
+dunecore         v09_37_01
 genie_xsec       v3_00_04a       -       optional
 genie_phyopt     v3_00_04
 end_product_list

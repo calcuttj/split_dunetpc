@@ -1,24 +1,26 @@
 #!/bin/sh
 
-LARSOFT_VERSION=v09_36_00
+source ./defvars.sh
+
+LARSOFT_VERSION=v09_37_01
+TAGSUFFIX=_trj23nov2021
 COMPILER=e20
 DIRECTORY=splitter11
 USERNAME=`whoami`
-HDIR=/build
 
 source /cvmfs/dune.opensciencegrid.org/products/dune/setup_dune.sh
 
-cd ${HDIR}/${USERNAME}
+cd ${TARGETDIR}
 touch ${DIRECTORY}
 rm -rf ${DIRECTORY}
 mkdir ${DIRECTORY}
 cd ${DIRECTORY}
 setup larsoft ${LARSOFT_VERSION} -q ${COMPILER}:prof
 mrb newDev -q ${COMPILER}:prof
-source ${HDIR}/${USERNAME}/${DIRECTORY}/localProducts*/setup
+source ${TARGETDIR}/${DIRECTORY}/localProducts*/setup
 mkdir work
 cd srcs
-mrb g -t ${LARSOFT_VERSION} dunetpc
+mrb g -t ${LARSOFT_VERSION}${TAGSUFFIX} dunetpc
 
 cd $MRB_BUILDDIR
 mrbsetenv

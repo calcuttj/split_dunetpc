@@ -20,7 +20,7 @@ cmake_minimum_required(VERSION 3.19 FATAL_ERROR)
 # cetbuildtools contains our cmake modules
 find_package(cetbuildtools REQUIRED)
 
-project(dunecore VERSION 09.36.00 LANGUAGES CXX)
+project(dunecore VERSION 09.37.01 LANGUAGES CXX)
 
 ## Make target names shorter (dune::X vs dunecore::dune_X).
 # set(dunecore_NAMESPACE dune)
@@ -84,9 +84,10 @@ find_ups_product( nug4 )
 find_ups_product( nugen )
 find_ups_product( nurandom )
 find_ups_product( nusimdata )
-find_ups_product( nusystematics  )
 find_ups_product( nutools )
 find_ups_product( pandora )
+find_ups_product( dunedaqdataformats )
+find_ups_product( dunedetdataformats )
 find_ups_product( postgresql v9_1_5 )
 find_ups_product( systematicstools  )
 find_ups_product( fftw )

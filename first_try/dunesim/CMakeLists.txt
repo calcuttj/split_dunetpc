@@ -5,7 +5,7 @@
 
 cmake_minimum_required (VERSION 3.19 FATAL_ERROR)
 
-project(dunesim VERSION 09.36.00 LANGUAGES CXX)
+project(dunesim VERSION 09.37.01 LANGUAGES CXX)
 
 # cetbuildtools contains our cmake modules
 find_package(cetbuildtools REQUIRED)
