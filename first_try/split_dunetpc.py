@@ -4,7 +4,7 @@ import subprocess
 import sys
 from shutil import copyfile
 
-import dunecore
+from subdirs import *
 
 _top_path = os.path.dirname(os.path.realpath(__file__))
 _work_path = os.getcwd()
@@ -60,6 +60,11 @@ if __name__ == '__main__':
 
 
   gfr.setup_gettext()
-  make_dir(dunecore)
-  filter_repo(dunecore)
+
+  modules = [dunecore, duneana]
+  for module in modules:
+    print('###Working on', module._name)
+    make_dir(module)
+    filter_repo(module)
+    os.chdir(_work_path)
 
