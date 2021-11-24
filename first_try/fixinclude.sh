@@ -4,6 +4,7 @@
 #  dunecore fixes
 #-------------------
 
+echo "dunecore"
 for dname in ArtSupport DuneInterface Utilities DAQTriggerSim DuneServiceAccess Geometry DuneCommon DuneObj HDF5Utils; do
   for exname in cc cxx h hh cpp; do
     find . -type f -name "*.${exname}" -exec sed -i s"@dune/${dname}@dunecore/${dname}@" {} +
@@ -33,6 +34,7 @@ find . -type f -wholename "*Coldbox/vd/CMakeLists.txt" -exec sed -i s"@HDF5Utils
 #  duneprototypes fixes
 #-------------------
 
+echo "duneprototypes"
 for dname in Protodune Iceberg Coldbox; do
   for exname in cc cxx h hh cpp; do
     find . -type f -name "*.${exname}" -exec sed -i s"@dune/${dname}@duneprototypes/${dname}@" {} +
@@ -55,6 +57,7 @@ done
 #  dunesim fixes
 #-------------------
 
+echo "dunesim"
 for dname in DetSim Simulation EventGenerator SpaceCharge SpaceChargeServices SimFilter PhotonPropagation DAQTriggerSim DetectorVariations LArG4; do
   for exname in cc cxx h hh cpp; do
     find . -type f -name "*.${exname}" -exec sed -i s"@dune/${dname}@dunesim/${dname}@" {} +
@@ -66,6 +69,7 @@ done
 #  dunecalib fixes
 #-------------------
 
+echo "dunecalib"
 for dname in Calib CalibServices; do
   for exname in cc cxx h hh cpp; do
     find . -type f -name "*.${exname}" -exec sed -i s"@dune/${dname}@dunecalib/${dname}@" {} +
@@ -77,6 +81,7 @@ done
 #  duneprototypes fixes
 #-------------------
 
+echo "duneprototypes"
 for dname in Protodune Iceberg 3x1x1dp BeamData; do
   for exname in cc cxx h hh cpp; do
     find . -type f -name "*.${exname}" -exec sed -i s"@dune/${dname}@duneprototypes/${dname}@" {} +
@@ -88,6 +93,7 @@ done
 #  dunedataprep fixes
 #-------------------
 
+echo "duneprototypes"
 for dname in DataPrep CalData; do
   for exname in cc cxx h hh cpp; do
     find . -type f -name "*.${exname}" -exec sed -i s"@dune/${dname}@dunedataprep/${dname}@" {} +
@@ -100,6 +106,7 @@ done
 #  dunereco fixes
 #-------------------
 
+echo "dunereco"
 for dname in AnaUtils ClusterFinderDUNE CVN DUNEPandora DUNEWireCell FDSensOpt HitFinderDUNE InfillChannels RecoAlgDUNE RegCNN SNSlicer SNUtils TrackFinderDUNE TrackPID VLNets; do
   for exname in cc cxx h hh cpp; do
     find . -type f -name "*.${exname}" -exec sed -i s"@dune/${dname}@dunereco/${dname}@" {} +
@@ -113,6 +120,7 @@ find . -type f -wholename "*DUNEPandora/scripts/CMakeLists.txt" -exec sed -i s"@
 #  duneana fixes
 #-------------------
 
+echo "duneana"
 for dname in AnaTree CAFMaker DAQSimAna EnergyStudies EventFilters HitAnalysis PandoraAnalysis ProductFilters ShowerAna SupernovaAna TrackingAna; do
   for exname in cc cxx h hh cpp; do
     find . -type f -name "*.${exname}" -exec sed -i s"@dune/${dname}@duneana/${dname}@" {} +
@@ -125,6 +133,7 @@ find . -type f -wholename "*HitAnalysis/CMakeLists.txt" -exec sed -i s"@HitFinde
 #  duneexamples fixes
 #-------------------
 
+echo "duneexamples"
 for dname in DuneExample GalleryScripts; do
   for exname in cc cxx h hh cpp; do
     find . -type f -name "*.${exname}" -exec sed -i s"@dune/${dname}@duneexamples/${dname}@" {} +
