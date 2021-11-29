@@ -48,9 +48,9 @@ done
 
 for dname in OpticalDetector ; do
   for exname in cc cxx h hh cpp; do
-    find . -type f -name "*.${exname}" -exec sed -i s"@dune/${dname}@duneopdet@" {} +
+    find . -type f -name "*.${exname}" -exec sed -i s"@dune/${dname}@duneopdet/${dname}@" {} +
   done
-  find . -type f -name "*.txt" -exec sed -i s"@dune_${dname}@duneopdet@" {} +
+  find . -type f -name "*.txt" -exec sed -i s"@dune_${dname}@duneopdet_${dname}@" {} +
 done
 
 #-------------------

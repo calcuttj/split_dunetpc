@@ -92,3 +92,7 @@ if __name__ == '__main__':
     filter_repo(module)
     os.chdir(_work_path)
 
+  os.chdir('srcs')
+  copyfile('%s/top_CMake_template.txt'%_top_path, './CMakeLists.txt')
+
+  print ('Done filtering repositories. Copied over top-level CMakeLists.txt. Set up local products and run mrb uc')
