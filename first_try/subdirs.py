@@ -48,6 +48,7 @@ duneprototypes = subdir('duneprototypes',
                         ['dune/Protodune',
                          'dune/Iceberg',
                          'dune/3x1x1dp',
+                         'dune/PhotonPropagation',
                          'dune/BeamData',
                          'dune/Coldbox'])
 
@@ -76,7 +77,6 @@ dunesim = subdir('dunesim',
                   'dune/SpaceCharge',
                   'dune/SpaceChargeServices',
                   'dune/SimFilter',
-                  'dune/PhotonPropagation',
                   'dune/DetectorVariations',
                   'dune/LArG4'])
 
