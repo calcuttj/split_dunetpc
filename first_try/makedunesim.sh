@@ -27,7 +27,6 @@ cp -r $UNSPLIT_SOURCE/dunetpc/dune/EventGenerator .
 cp -r $UNSPLIT_SOURCE/dunetpc/dune/SpaceCharge .
 cp -r $UNSPLIT_SOURCE/dunetpc/dune/SpaceChargeServices .
 cp -r $UNSPLIT_SOURCE/dunetpc/dune/SimFilter .
-cp -r $UNSPLIT_SOURCE/dunetpc/dune/PhotonPropagation .
 cp -r $UNSPLIT_SOURCE/dunetpc/dune/DetectorVariations .
 cp -r $UNSPLIT_SOURCE/dunetpc/dune/LArG4 .
 

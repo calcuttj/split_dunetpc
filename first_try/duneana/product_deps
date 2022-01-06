@@ -3,7 +3,7 @@
 # The *parent* line must the first non-commented line and defines this product and version
 # The version must be of the form vxx_yy_zz (e.g. v01_02_03).
 
-parent duneana v09_37_01
+parent duneana v09_39_01_01
 
 defaultqual e20
 
@@ -23,9 +23,9 @@ defaultqual e20
 # Add the dependent product and version
 
 product          version
-cetbuildtools	 v8_18_05	-	only_for_build
-dunereco         v09_37_01
-duneopdet        v09_37_01
+cetbuildtools	 v8_18_09	-	only_for_build
+dunereco         v09_39_01_01
+duneopdet        v09_39_01_01
 end_product_list
 
 
