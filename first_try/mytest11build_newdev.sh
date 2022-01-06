@@ -2,7 +2,7 @@
 
 source ./defvars.sh
 
-LARSOFT_VERSION=v09_39_01_01
+DUNETPC_TAG=v09_41_00_02
 #TAGSUFFIX=_trj23nov2021
 COMPILER=e20
 DIRECTORY=splitter11
@@ -15,12 +15,11 @@ touch ${DIRECTORY}
 rm -rf ${DIRECTORY}
 mkdir ${DIRECTORY}
 cd ${DIRECTORY}
-setup larsoft ${LARSOFT_VERSION} -q ${COMPILER}:prof
 mrb newDev -q ${COMPILER}:prof
 source ${TARGETDIR}/${DIRECTORY}/localProducts*/setup
 mkdir work
 cd srcs
-mrb g -t ${LARSOFT_VERSION}${TAGSUFFIX} dunetpc
+mrb g -t ${DUNETPC_TAG}${TAGSUFFIX} dunetpc
 
 cd $MRB_BUILDDIR
 mrbsetenv

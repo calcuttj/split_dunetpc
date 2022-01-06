@@ -3,7 +3,7 @@
 # The *parent* line must the first non-commented line and defines this product and version
 # The version must be of the form vxx_yy_zz (e.g. v01_02_03).
 
-parent duneprototypes v09_39_01_01
+parent duneprototypes v09_41_00_02
 
 defaultqual e20
 
@@ -26,9 +26,9 @@ fwdir	product_dir	config_data
 
 product                 version
 cetbuildtools	        v8_18_09	-	only_for_build
-duneopdet               v09_39_01_01
-dunecalib               v09_39_01_01
-dunesim                 v09_39_01_01
+duneopdet               v09_41_00_02
+dunecalib               v09_41_00_02
+dunesim                 v09_41_00_02
 end_product_list
 
 # We now define allowed qualifiers and the corresponding qualifiers for the depdencies.

@@ -3,7 +3,7 @@
 # The *parent* line must the first non-commented line and defines this product and version
 # The version must be of the form vxx_yy_zz (e.g. v01_02_03).
 
-parent dunesw v09_39_01_01
+parent dunesw v09_41_00_02
 
 defaultqual e20
 
@@ -37,10 +37,10 @@ table_fragment_end
 
 product          version
 cetbuildtools	 v8_18_09	-	only_for_build
-duneexamples     v09_39_01_01
-dunedataprep     v09_39_01_01
-duneprototypes   v09_39_01_01
-duneana          v09_39_01_01
+duneexamples     v09_41_00_02
+dunedataprep     v09_41_00_02
+duneprototypes   v09_41_00_02
+duneana          v09_41_00_02
 end_product_list
 
 

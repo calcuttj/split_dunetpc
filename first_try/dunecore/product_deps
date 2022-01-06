@@ -3,7 +3,7 @@
 # The *parent* line must the first non-commented line and defines this product and version
 # The version must be of the form vxx_yy_zz (e.g. v01_02_03).
 
-parent dunecore v09_39_01_01
+parent dunecore v09_41_00_02
 
 defaultqual e20
 
@@ -31,10 +31,10 @@ duneutil            v09_39_01
 dune_pardata        v01_77_00
 dunedetdataformats  v3_2_1
 dunedaqdataformats  v3_2_1
-nusystematics           v01_00_06
-systematicstools        v01_00_03
+nusystematics       v01_00_06
+systematicstools    v01_00_03
 dune_oslibs         v1_0_0         -       optional
-larsoft             v09_39_01
+larsoft             v09_41_00
 cetbuildtools       v8_18_09    -       only_for_build
 end_product_list
 
