@@ -4,6 +4,7 @@ dunesw -> duneexamples
 dunesw -> dunedataprep
 dunesw -> duneana
 dunesw -> duneutil
+dunesw -> protoduneana
 dunecore -> dune_pardata
 dunesim -> genie_xsec
 dunesim -> genie_phyopt
@@ -24,4 +25,5 @@ dunereco -> dunecore
 dunereco -> hep_hpc
 dunesim -> dunecore
 dunecore -> larsoft
+protoduneana -> duneprototypes
 }
