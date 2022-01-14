@@ -1,5 +1,4 @@
 digraph G {
-dunesw -> duneprototypes
 dunesw -> duneexamples
 dunesw -> dunedataprep
 dunesw -> duneana
