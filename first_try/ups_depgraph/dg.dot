@@ -2,7 +2,7 @@ digraph G {
 dunesw -> duneexamples
 dunesw -> dunedataprep
 dunesw -> duneana
-dunesw -> duneutil
+dunecore -> duneutil
 dunesw -> protoduneana
 dunecore -> dune_pardata
 dunesim -> genie_xsec
